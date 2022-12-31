@@ -1,1 +1,8 @@
 /* Footer styling */
+.footer {
+  padding: 0;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #303030;
+}

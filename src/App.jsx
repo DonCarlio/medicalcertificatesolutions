@@ -7,19 +7,22 @@ import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import Footer from './components/footer/Footer';
 import Services from './pages/services/Services';
+import { MenuProvider } from './hooks/MenuContext';
 
 const App = () => {
   return (
-    <BrowserRouter className='App'>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Landing />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/services' element={<Services />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <MenuProvider>
+      <BrowserRouter className='App'>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Landing />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </MenuProvider>
   )
 }
 

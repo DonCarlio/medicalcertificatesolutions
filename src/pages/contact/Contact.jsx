@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import MenuContext from '../../hooks/MenuContext';
 
 const Contact = () => {
+  const {showMenu} = useContext(MenuContext);
   return (
-    <div>Contact</div>
+    <>
+      {!showMenu
+        ? <div>Contact</div>
+        : undefined
+      }
+    </>
   )
 }
 
