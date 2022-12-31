@@ -5,7 +5,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 import './Navbar.css';
 
 const activeStyle = {
-  background: '#84cc1f',
+  background: '#4db5ff',
   color: 'white',
 };
 

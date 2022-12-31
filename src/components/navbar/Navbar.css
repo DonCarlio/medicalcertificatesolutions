@@ -1,13 +1,13 @@
 .navbar {
   border-bottom: 1px solid lightgray;
-  border-radius: 3rem;
+  border-radius: 0 0 3rem 3rem;
   display: flex;
   justify-content: space-between;
   width: 100vw;
   padding: 1rem 2rem;
-  margin-bottom: 2rem;
-  background-color: transparent;
+  background-color: var(--color-bg);
   position: sticky;
+  z-index: 999;
   top: 0;
 }
 
@@ -42,17 +42,6 @@
 }
 
 @media screen and (max-width: 900px) {
-  /* .navbar {
-    background-color: red;
-    display: none;
-  }
-
-  .mobile-menu {
-    display: block;
-    width: 100vw;
-    text-align: center;
-  } */
-
   .close-menu {
     display: block;
     position: fixed;

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Qualities = () => {
   return (
-    <div>Qualities</div>
+    <section id='#Qualities'>
+      <div>Qualities</div>
+    </section>
   )
 }
 

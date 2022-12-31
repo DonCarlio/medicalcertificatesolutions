@@ -2,7 +2,9 @@ import React from 'react'
 
 const Samples = () => {
   return (
-    <div>Samples</div>
+    <section id='#Ssamples'>
+      <div>Samples</div>
+    </section>
   )
 }
 
