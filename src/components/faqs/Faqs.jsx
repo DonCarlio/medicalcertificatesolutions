@@ -12,15 +12,15 @@ import 'swiper/css/pagination';
 const reviewData = [
   {
     name: 'Is the certificate authentic?',
-    review: "Since we are getting your certificate ate directly from the database your certificate is exactly the same as that of other candidates who sat for the exam."
+    review: "Since we are getting your certificate directly from the database it is identical to that of the candidates who sat for the exam. It is not just identical, but certificates and diplomas you purchase from us are valid, wherever they should be. In case of any checks or verifications, they will be found in the database, just like any other."
   },
   {
     name: 'How legit is this process?',
-    review: "The process is very legit because we are working directly with the database manager and examiners for the various exam bodies"
+    review: "The process is very legit because we are working directly with the database manager and examiners for the various exam bodies. Over the years, we have established priceless and mutually beneficial relationships and partnerships with the above mentioned, aimed primarily at giving our clients the smoothest and least stressfull experiences popssible."
   },
   {
     name: 'Will I run into any trouble later?',
-    review: "You have nothing to worry about when working with us as all the work is authentic and verifiable online by any body who need to check."
+    review: "You have nothing to worry about when working with us as all the work is authentic and verifiable online by any body who need to check. You can use your certificate anywhere, as comfortably as possible."
   },
   {
     name: 'How do I know the work is legit? ',
