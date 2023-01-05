@@ -11,17 +11,17 @@ const imageSlider = [
   },
   {
     url: image2,
-    title: 'Buy Authentic Diplomas',
+    title: 'Buy Authentic Diplomas And Certificates Without Writing Exams',
     body: 'Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada.'
   },
   {
     url: image3,
-    title: 'Purchase Question Papers For Your Upcoming Medical Exams',
+    title: 'Purchase Leak Questions For Your Upcoming Medical Exams',
     body: 'Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada.'
   },
   {
     url: image4,
-    title: 'Correct Previous Poor Results',
+    title: 'Modify Previous Results',
     body: 'Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada.'
   }
 ]

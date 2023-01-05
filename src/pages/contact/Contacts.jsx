@@ -1,16 +1,17 @@
 import React, { useContext } from 'react';
 import MenuContext from '../../hooks/MenuContext';
+import Contact from '../../components/contact/Contact';
 
-const Contact = () => {
+const Contacts = () => {
   const {showMenu} = useContext(MenuContext);
   return (
     <>
       {!showMenu
-        ? <div>Contact</div>
+        ? <Contact />
         : undefined
       }
     </>
   )
 }
 
-export default Contact
+export default Contacts

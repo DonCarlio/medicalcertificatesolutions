@@ -1,9 +1,32 @@
-import React from 'react'
+import React from 'react';
+import abPic from '../../assets/IMG_0616.JPG';
+import './About.css';
 
 const About = () => {
   return (
     <section id='#About'>
-      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni rerum incidunt et commodi at adipisci dicta maiores animi, asperiores optio iste pariatur voluptate quod. Voluptas commodi rem voluptates in perspiciatis obcaecati fuga. Nihil vel modi sunt sint sit totam veniam eligendi explicabo iure voluptatem doloribus delectus repudiandae voluptatum dolorem atque nulla voluptate, numquam facere tempora? Asperiores dolorum praesentium ratione commodi dignissimos vitae quae dolores alias quos aliquid nulla sequi, non accusamus blanditiis, quam a exercitationem! Praesentium, velit laborum ipsam quasi dignissimos, sed ex sint neque repellendus cupiditate qui eos ab ipsum aliquam quibusdam vitae quod totam id asperiores doloribus explicabo modi excepturi maiores eius. Animi quisquam, laborum nulla quod aspernatur id! Nemo esse velit cum natus, praesentium atque tempora corporis, at soluta vel voluptatum ipsum debitis vitae illum optio adipisci. Repudiandae fuga voluptatibus velit quas! Suscipit commodi saepe ex ea ratione praesentium nesciunt quaerat totam aspernatur quisquam sint, culpa corrupti consectetur accusantium adipisci molestias sed et architecto necessitatibus blanditiis mollitia cupiditate quos nihil provident? Repellendus recusandae sed pariatur similique sit accusantium error, consectetur atque quae veniam, inventore harum sint eligendi libero fugiat! Saepe maiores, quibusdam eos placeat praesentium possimus excepturi ipsa provident aliquid illo sed quia error laborum consequatur eveniet nam temporibus molestias quisquam porro cum fuga. Id, sunt! Delectus, inventore. Tempore mollitia, aliquam eum sequi commodi deleniti nihil eius dolores, ratione dolore illum amet labore doloribus, non possimus odio facere? Commodi explicabo quae, animi nesciunt sit modi eligendi suscipit doloremque quidem. Quas quis corporis et excepturi, distinctio molestiae quod perspiciatis nobis cum veniam id voluptates accusamus beatae quia, quidem delectus eos enim quae. Sapiente placeat soluta atque quia? Quisquam natus aliquid ad saepe repellat? Libero incidunt necessitatibus id temporibus quis tempore provident veritatis dolores, dolorem eveniet inventore, autem quaerat laudantium aperiam recusandae! Mollitia ipsum perspiciatis impedit amet, ad error voluptatibus, labore provident consectetur dolores iure? Voluptate error officia labore minima ex reiciendis tenetur magni incidunt necessitatibus commodi aut quod, facilis aliquam laborum rem ullam? Porro mollitia placeat sapiente molestias eius esse similique tempore? Ab dolore deleniti laboriosam recusandae nostrum aliquid, similique soluta laborum fuga dolorem quidem nulla error quos voluptas sequi porro alias! Voluptatibus neque a sequi maxime ab nobis labore officia vero et recusandae sapiente omnis, quae hic dolor consequuntur libero, minima, fugiat vel perspiciatis earum eum eveniet. Modi consequatur nostrum quos ducimus corporis dignissimos praesentium tempore amet debitis eveniet facilis, ut suscipit, reiciendis quasi architecto eaque, repellat id numquam doloribus eos possimus aliquid? Hic neque nesciunt, libero quidem doloribus odit amet. Et expedita ullam soluta debitis nam nesciunt nostrum tenetur aspernatur consequuntur accusantium, assumenda, autem quidem, laborum magnam. Quidem dolorem optio, necessitatibus ut labore inventore, itaque quod iusto tempore culpa tenetur asperiores doloribus architecto sit officiis, recusandae magni eos eligendi. Quos suscipit atque officia unde, quam obcaecati assumenda omnis quae fuga enim ipsum numquam asperiores minima dolore sit! Eligendi esse, illo magnam consectetur rerum consequatur atque, fugit vel, ullam recusandae officia quos vero excepturi beatae molestiae omnis est nesciunt itaque vitae autem! Veniam perspiciatis explicabo ut.</div>
+      <h5>Get To Know</h5>
+      <h2>About Us</h2>
+
+      <div className="container about__container">
+        <div className="about__me">
+          <div className="about__me-image">
+            <img src={abPic} alt="my pic" />
+          </div>
+        </div>
+        <div className="about__content">
+          <p>
+          Founded in 1998 and now you are able to shop for real DIY Diploma on line at the bottom charges from us. We are rated #no1 valid real and pretend diploma/diploma carrier company from 1998 to 2022.
+
+We’re right here to store your time and money with our enhance valid files solution for your comfy journey.
+
+We can offer all kinds of university diplomas or degrees, even many real certificates sample with you for viewing earlier than the order, and so many other files.
+
+We are available 24 hours 7 days for stay customer support. You can get what you need faux documents, university diplomas, university diplomas, real professional transcripts, or levels at a very affordable value.
+          </p>
+          <a href="/about" className='btn btn-primary'>More About Us</a>
+        </div>
+      </div>
     </section>
   )
 }

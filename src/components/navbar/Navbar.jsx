@@ -1,5 +1,5 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useContext, useEffect } from 'react';
+import { NavLink, Link } from 'react-router-dom';
 import MenuContext from '../../hooks/MenuContext';
 import { AiOutlineMenu } from 'react-icons/ai';
 import './Navbar.css';
@@ -33,9 +33,12 @@ const Navbar = () => {
       {
         navBar
          ? <nav className='navbar'>
-            <div>
+            <Link
+                to="/"
+                className="logo logo-name"
+              >
               <h2 className="logo logo-name">Medical Certificate Solutions</h2>
-            </div>
+            </Link>
             <div
               className="links"
               role="presentation"
@@ -115,7 +118,12 @@ const Navbar = () => {
             <button type='button' onClick={() => {setShowMenu(false)}} className="close-menu">Close Menu</button>
           </div>
         : <div className='navbar'>
-            <h2 className="logo logo-name">Medical Certificate Solutions</h2>
+            <Link
+                to="/"
+                className="logo logo-name"
+              >
+              <h2 className="logo logo-name">Medical Certificate Solutions</h2>
+            </Link>
             <AiOutlineMenu className='bigger' onClick={() => {setShowMenu(true)}}/>
         </div>
       }
