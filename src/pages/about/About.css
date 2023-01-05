@@ -1,1 +1,7 @@
 /* Styling for about page */
+.paved {
+  background: var(--color-bg-variant);
+  padding: 1rem;
+  z-index: 2;
+  box-shadow: 0.7rem 0.7rem rgba(128, 128, 128, 0.199);
+}
