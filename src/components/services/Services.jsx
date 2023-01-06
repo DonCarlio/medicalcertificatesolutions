@@ -35,7 +35,7 @@ const Services = () => {
               <BiCheck className='service__list-icon' />
               <span>
                 <p className={details === 'first' ? 'title' : ''}>Eligibility</p>
-                <small className={details === 'first' ? 'show' : 'no-show'}>To be eligible for this service, you must have RECENTLY failed to pass in any of the exams listed above. The Eligibility period is 12months from the time of results.
+                <small className={details === 'first' ? 'show' : 'no-show'}>To be eligible for this service, you must have RECENTLY had an unsatisfactory result in any of the exams listed above. The Eligibility period is 12 months from the results release date.
                 <BsChevronUp className='service__arrows' title='show less' onClick={() => {setDetails('');}}/></small>
               </span>
               <BsChevronDown className={details === 'first' ? 'no-show' : 'show service__arrows'} title='show more' onClick={() => {setDetails('first');}}/>
@@ -57,12 +57,12 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Leak Questions</h3>
+            <h3>Leak Questions And Answers</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Are you already registered to seat any of the above mentioned exams in the near future? Is your exam date approaching? Contact us via any means of your choice and we will make the exact questions available to you before the exam, so that your chances of passing will be almost certain. The leak questions we provide are 100% guaranteed to appear on your question paper. Help us help you achieve your dream today.</p>
+              <p>Are you already registered to seat any of the above mentioned exams in the near future? Is your exam date approaching? Contact us via any means of your choice and we will make the exact questions and their correct corresponding answers available to you before the exam, so that your chances of passing will be almost certain. The leak questions we provide are 100% guaranteed to appear on your question paper. Help us help you achieve your dream today.</p>
             </li>
           </ul>
         </article>
