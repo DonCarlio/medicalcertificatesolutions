@@ -1,3 +1,46 @@
 .header__container {
-  
+  min-height: 70vh;
+  width: 100vw;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__container .div {
+  max-width: 100%;
+  max-height: 50%;
+}
+
+.div h2 {
+  font-size: 3rem;
+  color: var(--color-light);
+  line-height: 3rem;
+  font-weight: 700;
+}
+
+.div a {
+  margin-top: 2rem;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.carousel span {
+  width: 45px;
+  height: 12px;
+  background-color: rgba(217, 225, 233, 0.423);
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 3px 2px 2px rgb(51, 50, 50);
+}
+
+.active {
+  background-color: aliceblue;
 }

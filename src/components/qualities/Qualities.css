@@ -1,1 +1,85 @@
 /* Styling for qualities component */
+.quality__container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.quality__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.quality__card {
+  aspect-ratio: 1/1;
+  background: var(--color-bg-variant);
+  padding: 2rem;
+  border: 5px solid var(--color-bg);
+  border-radius: 1rem;
+  transition: var(--transition);
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.quality__card:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+}
+
+.quality__icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.quality__card h5 {
+  font-size: 1.2rem;
+}
+
+.quality__card small {
+  font-size: 0.8rem;
+  color: var(--color-light);
+}
+
+/* ========== MEDIA QUERY (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+  .quality__cards {
+    grid-template-columns: 1fr 1fr;  
+    gap: 0;
+    /* max-height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 2rem 0; */
+  }
+
+  .quality__card {
+    height: 30rem;
+    aspect-ratio: 0;
+  }
+
+  .quality__card h5 {
+    font-size: 2rem;
+  }
+  
+  .quality__card small {
+    font-size: 1.5rem;
+    color: var(--color-light);
+  }
+}
+
+/* ========== MEDIA QUERY (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+  .quality__cards {
+   grid-template-columns: 1fr;
+   gap: 1rem;
+  }
+}
