@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import Experience from '../../components/experience/Experience';
+import MenuContext from '../../hooks/MenuContext';
+import Service from '../../components/services/Services';
 
 const Services = () => {
+  const {showMenu} = useContext(MenuContext);
   return (
-    <div>Services</div>
+    <>
+      {!showMenu
+        ? (<>
+            <Experience />
+            <Service />
+        </>)
+        : undefined
+      }
+    </>
   )
 }
 
