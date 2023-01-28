@@ -14,7 +14,7 @@ const About = () => {
               <h2>About Us</h2>
               <img src={logo} alt="buy medical certificates logo" className='about__logo' />
             <div className='container'>
-              <h1>Buy MRCP/MRCPCH/MRCS/MRCOG/MRCEM/MRCGP Certificates Online</h1>
+              <h1 className='center'>Buy MRCP/MRCPCH/MRCS/MRCOG/MRCEM/MRCGP Certificates Online</h1>
               <p className='paved'>
                 The Medical certificate solutions Team is made up of 33 highly connected, experienced, and fully dedicated professionals from all over the world with the sole purpose of providing you with the best and most quality assistance possible as far as online medical diplomas and certificates go. We are your one stop solution to all your Royal College Exam woes or issues such as:
                 <ul> 
@@ -36,16 +36,16 @@ const About = () => {
 
               <p className='paved'>SO, IF YOU FIND OUR SERVICES PERFECT FOR YOU THEN, CONTACT ASAP AND OUR CUSTOMER SERVICE WILL GET BACK TO YOU WITH MORE INFORMATION ON HOW THE PROCESS WORKS.</p>
 
-              <h1>Buy IELTS certificate online | Registered IELTS certificate Online</h1>
+              <Faqs />
+
+              <h1 className='center'>Buy IELTS certificate online | Registered IELTS certificate Online</h1>
 
               <p className='paved'>Buy IELTS certificate online, Buy TOEFL certificate online, Buy GRE Certificate Online, Buy GMAT Certificate Online, Buy CAE certificate online, IELTS Certificate online, Registered IELTS certificate online, IELTS certificate without exam, Buy original IELTS certificate, Buy CAE certificate online, Buy TOEFL certificate online, Buy IELTS certificate online, IELTS Certificate online, Registered IELTS certificate online, Buy GRE Certificate Online, Buy GMAT Certificate Online, Buy original IELTS certificate, IELTS certificate without exam.</p>
 
-              <h1>Buy MRCP Certificate online | MRCP Without Exam</h1>
+              <h1 className='center'>Buy MRCP Certificate online | MRCP Without Exam</h1>
 
               <p className='paved'>MRCP Certificate online, Buy MRCS certificate online, Registered MRCP certificate online, Buy MRCOG Certificate Online, Buy PLAB Certificate Online, Buy original MRCP certificate, MRCP certificate without exam, Buy original MRCP certificate, Buy CAE certificate online, MRCP certificate without exam, Buy MRCP certificate online, Buy MRCS certificate online, Buy MRCOG Certificate Online, Buy PLAB Certificate Online, Buy CAE certificate online, MRCP Certificate online, Buy MRCS certificate online, Buy MRCP certificate online, Registered MRCP certificate online.</p>
               </div>
-
-            <Faqs />
         </section>)
         : undefined
       }

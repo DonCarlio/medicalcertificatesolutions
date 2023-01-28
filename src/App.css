@@ -29,3 +29,10 @@
 .omni-chat:hover {
   color: azure;
 }
+
+.center {
+  text-align: center;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+}
