@@ -41,7 +41,7 @@ const Faqs = () => {
       pagination={{ clickable: true }}
       >
       {
-        reviewData.map(({avatar, name, review}, index) => {
+        reviewData.map(({name, review}, index) => {
           return (
             <SwiperSlide className="testimonial" key={index}>
               <h5 className='client__name'>{name}</h5>

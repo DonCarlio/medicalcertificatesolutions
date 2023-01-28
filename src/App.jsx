@@ -21,7 +21,7 @@ const App = () => {
           <Route path='/services' element={<Services />} />
           <Route path='/contact' element={<Contacts />} />
         </Routes>
-            <a href="https://wa.me/+14242616933" target='__blank' className='omni'><BsWhatsapp className='omni-chat'/></a>
+        <a href="https://wa.me/+14242616933" target='__blank' className='omni'><BsWhatsapp className='omni-chat'/></a>
         <Footer />
       </BrowserRouter>
     </MenuProvider>
